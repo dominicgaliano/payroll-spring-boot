@@ -10,7 +10,13 @@
 
 ## Description
 
-A simple Spring Boot REST Service
+A simple Spring Boot based employee payroll service.
+
+Built Using:
+- Spring Boot
+- Spring Data JPA (Java Persistence API) for database access 
+- Spring Web MVC framework
+- SLF4J for Logging 
 
 ## Installation
 
