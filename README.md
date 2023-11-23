@@ -15,6 +15,7 @@ A simple Spring Boot based employee payroll service.
 Built Using:
 - Spring Boot
 - Spring Data JPA (Java Persistence API) for database access 
+- H2 Database Engine
 - Spring Web MVC framework
 - SLF4J for Logging 
 
