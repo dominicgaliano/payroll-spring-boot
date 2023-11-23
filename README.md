@@ -17,6 +17,7 @@ Built Using:
 - Spring Data JPA (Java Persistence API) for database access 
 - H2 Database Engine
 - Spring Web MVC framework
+- Spring HATEOAS
 - SLF4J for Logging 
 
 ## Installation
