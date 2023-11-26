@@ -6,19 +6,20 @@
 ![Top Tech][tech-shield]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Spring Boot REST Service
+# Spring Boot REST API for Employee Payroll and Order Tracking
 
 ## Description
 
-A simple Spring Boot based employee payroll service.
+A lightweight Spring Boot-based RESTful service for managing employee payroll and company orders.
 
-Built Using:
+## Tech Stack
+
 - Spring Boot
-- Spring Data JPA (Java Persistence API) for database access 
-- H2 Database Engine
-- Spring Web MVC framework
-- Spring HATEOAS
-- SLF4J for Logging 
+- Spring Data JPA: Java Persistence API for efficient database access.
+- H2 Database Engine: Embedded database for easy setup.
+- Spring Web MVC: Framework for building robust web applications.
+- Spring HATEOAS: Enhances API navigability.
+- SLF4J: Simple Logging Facade for Java.
 
 ## Installation
 
@@ -36,11 +37,28 @@ git clone https://github.com/dominicgaliano/payroll-spring-boot/
 cd gs-rest-service/
 ```
 
-3. Run the build
+3. Run the application
 
 ```bash
 ./gradlew bootRun
 ```
+## API Endpoints
+
+### Employees
+
+- GET /employees: Retrieve a list of all employees.
+- GET /employees/{employeeId}: Retrieve details of a specific employee.
+- POST /employees: Add a new employee.
+- PUT /employees/{employeeId}: Update details of a specific employee.
+- DELETE /employees/{employeeId}: Remove a specific employee.
+
+### Orders
+
+- GET /orders: Retrieve a list of all orders.
+- GET /orders/{orderId}: Retrieve details of a specific order.
+- POST /orders: Add a new order.
+- DELETE /orders/{orderId}/cancel: Mark a specific order as canceled.
+- DELETE /orders/{orderId}/complete: Mark a specific order as complete.
 
 ## License
 
